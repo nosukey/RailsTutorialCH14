@@ -39,6 +39,6 @@ group :test do
 end
 
 group :production do
-  gem 'mysql2'
+  gem 'sqlite3', '1.3.13'
   gem 'unicorn'
 end
